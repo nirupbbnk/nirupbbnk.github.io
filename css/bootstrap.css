@@ -19,7 +19,19 @@ body {
   border:solid 5px;
 
 }
-
+@media screen and (max-width: 400px) and (min-width: 100px){
+  .mobilehide {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    margin: 10px auto 5px 20px;
+    width: 28%;
+    display: none;
+  }
+}
+patrons{
+	color:#FFF;
+}
 
 
 
@@ -96,7 +108,9 @@ sub {
 }
 img {
   border: 0;
+  
 }
+
 svg:not(:root) {
   overflow: hidden;
 }
